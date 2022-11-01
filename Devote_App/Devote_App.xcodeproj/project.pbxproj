@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76DB61E329116DEE00798FAB /* Devote_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DB61E229116DEE00798FAB /* Devote_AppApp.swift */; };
+		76DB61E529116DEE00798FAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DB61E429116DEE00798FAB /* ContentView.swift */; };
+		76DB61E729116DEF00798FAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76DB61E629116DEF00798FAB /* Assets.xcassets */; };
+		76DB61EA29116DEF00798FAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76DB61E929116DEF00798FAB /* Preview Assets.xcassets */; };
+		76DB61EC29116DEF00798FAB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DB61EB29116DEF00798FAB /* Persistence.swift */; };
+		76DB61EF29116DEF00798FAB /* Devote_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 76DB61ED29116DEF00798FAB /* Devote_App.xcdatamodeld */; };
+		76DB61F829116E9600798FAB /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 76DB61F529116E9600798FAB /* sound-rise.mp3 */; };
+		76DB61F929116E9600798FAB /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 76DB61F629116E9600798FAB /* sound-ding.mp3 */; };
+		76DB61FA29116E9600798FAB /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 76DB61F729116E9600798FAB /* sound-tap.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		76DB61DF29116DEE00798FAB /* Devote_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Devote_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76DB61E229116DEE00798FAB /* Devote_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Devote_AppApp.swift; sourceTree = "<group>"; };
+		76DB61E429116DEE00798FAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		76DB61E629116DEF00798FAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76DB61E929116DEF00798FAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		76DB61EB29116DEF00798FAB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		76DB61EE29116DEF00798FAB /* Devote_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Devote_App.xcdatamodel; sourceTree = "<group>"; };
+		76DB61F529116E9600798FAB /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
+		76DB61F629116E9600798FAB /* sound-ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-ding.mp3"; sourceTree = "<group>"; };
+		76DB61F729116E9600798FAB /* sound-tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-tap.mp3"; sourceTree = "<group>"; };
+		76DB620129116F5400798FAB /* Devote-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Devote-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76DB61DC29116DEE00798FAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76DB61D629116DEE00798FAB = {
+			isa = PBXGroup;
+			children = (
+				76DB61E129116DEE00798FAB /* Devote_App */,
+				76DB61E029116DEE00798FAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76DB61E029116DEE00798FAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76DB61DF29116DEE00798FAB /* Devote_App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76DB61E129116DEE00798FAB /* Devote_App */ = {
+			isa = PBXGroup;
+			children = (
+				76DB620129116F5400798FAB /* Devote-App-Info.plist */,
+				76DB61E229116DEE00798FAB /* Devote_AppApp.swift */,
+				76DB61FC29116EBD00798FAB /* View */,
+				76DB620029116F0600798FAB /* Model */,
+				76DB61FF29116ED200798FAB /* Style */,
+				76DB61FE29116ECB00798FAB /* Utility */,
+				76DB61FD29116EC300798FAB /* Extension */,
+				76DB61FB29116EB400798FAB /* Sound */,
+				76DB61E629116DEF00798FAB /* Assets.xcassets */,
+				76DB61E829116DEF00798FAB /* Preview Content */,
+			);
+			path = Devote_App;
+			sourceTree = "<group>";
+		};
+		76DB61E829116DEF00798FAB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				76DB61E929116DEF00798FAB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		76DB61FB29116EB400798FAB /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				76DB61F629116E9600798FAB /* sound-ding.mp3 */,
+				76DB61F529116E9600798FAB /* sound-rise.mp3 */,
+				76DB61F729116E9600798FAB /* sound-tap.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		76DB61FC29116EBD00798FAB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				76DB61E429116DEE00798FAB /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		76DB61FD29116EC300798FAB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		76DB61FE29116ECB00798FAB /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		76DB61FF29116ED200798FAB /* Style */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		76DB620029116F0600798FAB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				76DB61EB29116DEF00798FAB /* Persistence.swift */,
+				76DB61ED29116DEF00798FAB /* Devote_App.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76DB61DE29116DEE00798FAB /* Devote_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76DB61F229116DEF00798FAB /* Build configuration list for PBXNativeTarget "Devote_App" */;
+			buildPhases = (
+				76DB61DB29116DEE00798FAB /* Sources */,
+				76DB61DC29116DEE00798FAB /* Frameworks */,
+				76DB61DD29116DEE00798FAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Devote_App;
+			productName = Devote_App;
+			productReference = 76DB61DF29116DEE00798FAB /* Devote_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76DB61D729116DEE00798FAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					76DB61DE29116DEE00798FAB = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 76DB61DA29116DEE00798FAB /* Build configuration list for PBXProject "Devote_App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76DB61D629116DEE00798FAB;
+			productRefGroup = 76DB61E029116DEE00798FAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76DB61DE29116DEE00798FAB /* Devote_App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76DB61DD29116DEE00798FAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DB61F929116E9600798FAB /* sound-ding.mp3 in Resources */,
+				76DB61F829116E9600798FAB /* sound-rise.mp3 in Resources */,
+				76DB61EA29116DEF00798FAB /* Preview Assets.xcassets in Resources */,
+				76DB61FA29116E9600798FAB /* sound-tap.mp3 in Resources */,
+				76DB61E729116DEF00798FAB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76DB61DB29116DEE00798FAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DB61EC29116DEF00798FAB /* Persistence.swift in Sources */,
+				76DB61E529116DEE00798FAB /* ContentView.swift in Sources */,
+				76DB61EF29116DEF00798FAB /* Devote_App.xcdatamodeld in Sources */,
+				76DB61E329116DEE00798FAB /* Devote_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		76DB61F029116DEF00798FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76DB61F129116DEF00798FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76DB61F329116DEF00798FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Devote_App/Preview Content\"";
+				DEVELOPMENT_TEAM = THGV2QJ4R5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Devote-App-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AleksandrKhristichenko.Devote-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76DB61F429116DEF00798FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Devote_App/Preview Content\"";
+				DEVELOPMENT_TEAM = THGV2QJ4R5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Devote-App-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AleksandrKhristichenko.Devote-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76DB61DA29116DEE00798FAB /* Build configuration list for PBXProject "Devote_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76DB61F029116DEF00798FAB /* Debug */,
+				76DB61F129116DEF00798FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76DB61F229116DEF00798FAB /* Build configuration list for PBXNativeTarget "Devote_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76DB61F329116DEF00798FAB /* Debug */,
+				76DB61F429116DEF00798FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		76DB61ED29116DEF00798FAB /* Devote_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				76DB61EE29116DEF00798FAB /* Devote_App.xcdatamodel */,
+			);
+			currentVersion = 76DB61EE29116DEF00798FAB /* Devote_App.xcdatamodel */;
+			path = Devote_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 76DB61D729116DEE00798FAB /* Project object */;
+}
