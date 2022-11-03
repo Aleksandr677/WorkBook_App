@@ -25,3 +25,4 @@ Stack:
 6. AVFoundation
 7. Custom elements
 8. Custom animations
+9. UINotificationFeedbackGenerator
