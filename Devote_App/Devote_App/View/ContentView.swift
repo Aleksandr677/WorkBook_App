@@ -110,7 +110,7 @@ struct ContentView: View {
                         .onDelete(perform: deleteItems)
                     } //LIST
                     .listStyle(InsetGroupedListStyle())
-                    //.scrollContentBackground(.hidden)
+                    .scrollContentBackground(.hidden)
                     .background(Color.clear)
                     .shadow(color: Color(red: 0, green: 0, blue: 0, opacity: 0.3), radius: 12)
                     .padding(.vertical, 0)
@@ -139,7 +139,7 @@ struct ContentView: View {
             }
             .navigationTitle("Daily Tasks")
             .navigationBarTitleDisplayMode(.large)
-            //.toolbar(.hidden)
+            .toolbar(.hidden)
             .background(
                 BackgroundImageView()
                     .blur(radius: showNewTaskItem ? 8.0 : 0.0, opaque: false)
